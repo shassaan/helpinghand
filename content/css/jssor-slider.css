@@ -1,0 +1,33 @@
+.slider-area{
+    position: relative; 
+    top: 0px; 
+    left: 0px;
+    display: block;
+    padding: 0;
+    z-index: 3;
+}
+
+.slides{
+    cursor: move; 
+    position: absolute; 
+    left: 0px; 
+    top: 0px; 
+    width: 100%; 
+    height: 100%;
+    overflow: hidden;
+}
+
+.jssor-cap{
+    position:absolute;
+    color:#fff;
+    width: auto;
+}
+
+.title-one{
+    font-weight: normal;
+}
+
+.title-two{
+    font-weight: bold;
+    font-size: 60px;
+}

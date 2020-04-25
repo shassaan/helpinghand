@@ -1,0 +1,239 @@
+/*
+Color
+=========================== */
+a,
+a:hover,
+a:focus,
+a:active,
+.error,
+.comments .media .media-body h5 a:hover,
+.comments .media .media-body h5 a:focus,
+ul.tags li a:hover,
+ul.tags li a:focus,
+ul.cat li a:hover,
+ul.cat li a:focus,
+ul.pagination li a:hover,
+ul.pagination li a:focus,
+ul.pagination li a,
+ul.footer-link li a:hover,
+ul.footer-link li a:focus,
+ul.social-link li a:hover,
+ul.social-link li a:focus,
+.blog .title a:hover,
+.blog ul.meta-post li:before,
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus,
+.navbar-nav > li > a:active,
+.navbar-nav > li.active > a,
+.navbar-nav > li.active > a:hover,
+.navbar-nav > li.active > a:focus,
+.navbar-nav > li.active > a:active,
+.icon-primary,
+.heading h5,
+.parallax-slider h2 span,
+.title-box h2 span{
+	color:#df352c;
+}
+
+/*
+Background color
+=========================== */
+.scroll-top a,
+.sidebar-page .widget .title-aside:before,
+ul.pagination li.on a:hover,
+ul.pagination li.on a:focus,
+ul.pagination li.on a,
+.owl-navigation a:hover,
+.btn-primary,
+.panel .panel-heading .panel-title i,
+.subscribe,
+.grid-item .wrap-gallery .shadow,
+.filter-items li.active,
+.top-nav-collapse .top,
+.introduce,
+.filter-items li:hover,
+.filter-items li:focus,
+.linner,
+a.openpanel:hover{
+	background-color:#df352c;
+}
+
+.introduce{
+	background-color:rgba(223, 53, 44, 0.9);
+	color:#fff;
+}
+
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary.focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:hover,
+.btn-primary:active:hover,
+.btn-primary.active:hover,
+.open > .dropdown-toggle.btn-primary:hover,
+.btn-primary:active:focus,
+.btn-primary.active:focus,
+.open > .dropdown-toggle.btn-primary:focus,
+.btn-primary:active.focus,
+.btn-primary.active.focus,
+.open > .dropdown-toggle.btn-primary.focus,
+.navbar-nav > li > a.btn:hover,
+.navbar-nav > li > a.btn:focus,
+.navbar-nav > li > a.btn:active{
+	background-color:#b72922;
+}
+
+/*
+Border color
+=========================== */
+ul.tags li a:hover,
+ul.tags li a:focus,
+ul.pagination li.on a:hover,
+ul.pagination li.on a:focus,
+ul.pagination li.on a,
+.btn-primary,
+.donate-form,
+.form-control:focus,
+.donate-form  .form-control:focus,
+.object{
+	border-color:#df352c;
+}
+
+.input-subscribe input,
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary.focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:hover,
+.btn-primary:active:hover,
+.btn-primary.active:hover,
+.open > .dropdown-toggle.btn-primary:hover,
+.btn-primary:active:focus,
+.btn-primary.active:focus,
+.open > .dropdown-toggle.btn-primary:focus,
+.btn-primary:active.focus,
+.btn-primary.active.focus,
+.open > .dropdown-toggle.btn-primary.focus,
+.navbar-nav > li > a.btn:hover,
+.navbar-nav > li > a.btn:focus,
+.navbar-nav > li > a.btn:active{
+	border-color:#b72922;
+}
+
+ul.pagination li.on a:hover,
+ul.pagination li.on a:focus,
+ul.pagination li.on a,
+.btn-primary{
+	border-bottom-color:#b72922;
+}
+
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary.focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:hover,
+.btn-primary:active:hover,
+.btn-primary.active:hover,
+.open > .dropdown-toggle.btn-primary:hover,
+.btn-primary:active:focus,
+.btn-primary.active:focus,
+.open > .dropdown-toggle.btn-primary:focus,
+.btn-primary:active.focus,
+.btn-primary.active.focus,
+.open > .dropdown-toggle.btn-primary.focus,
+.navbar-nav > li > a.btn:hover,
+.navbar-nav > li > a.btn:focus,
+.navbar-nav > li > a.btn:active{
+	border-bottom-color:#911913;
+}
+
+/*
+Secondary color
+=========================== */
+.start-video:before,
+.intro-cta h2{
+	color:#f89d1c;
+}
+
+.btn-default,
+.blog .wrap-img .meta-time .year,
+.intro-divider,
+.donate-form,
+.demo-header{
+	background-color:#f89d1c;
+}
+
+.wrap-comment,
+.footer-about{
+	background-color:#f89d1c;
+}
+
+.btn-default:hover,
+.btn-default:focus{
+    background-color:#d9851f;
+}
+
+.donate-form .form-control{
+	border-color:#c97919;
+}
+
+.btn-default{
+	border-bottom-color:#c97919;
+}
+
+.wrap-comment .form-control{
+	border-color:#b86e29;
+}
+
+.btn-default:hover,
+.btn-default:focus{
+	border-bottom-color:#b86e29;
+}

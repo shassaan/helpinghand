@@ -1,0 +1,289 @@
+<div id="home" class="slider-wrapper">
+    <!-- Start Jssor Slider -->
+    <div id="slider1_container" class="slider-area" style="width: 1300px; height: 711px;">
+        <!-- Start Slider -->
+        <div data-u="slides" class="slides" style="width: 1300px; height: 711px;">
+            <div>
+                <img data-u="image" src="/content/img/slider/img1.jpg" alt="">
+                <h1 data-u="caption" class="jssor-cap title-two" data-t="FDC|H"
+                    style="width:650px;height:48px;left:500px;top:400px; font-size:38px;">
+                    Prophet Muhammed (PBUH) said:
+                </h1>
+                <h2 data-u="caption" class="jssor-cap title-one" data-t="FDC|H"
+                    style="width:656px;height:240px;left:500px;top:450px; font-size:24px;">
+                    "There are seven whom Allah will shade on the Day of Judgement, ...A man who gives in charity and hides it, such that his left hand does not know what his right hand gives in charity;" <br>
+                    (Al-Bukhari and Muslim)
+                </h2>
+
+            </div>
+            <div>
+                <img data-u="image" src="/content/img/slider/img2.jpg" alt="">
+                <h1 data-u="caption" class="jssor-cap title-two" data-t="FDC|H"
+                    style="width:650px;height:48px;left:500px;top:400px; font-size:38px;">
+                    Prophet Muhammed (PBUH) said:
+                </h1>
+                <h2 data-u="caption" class="jssor-cap title-one" data-t="FDC|H"
+                    style="width:656px;height:130px;left:500px;top:450px; font-size:28px;">
+                    “Allah, the Exalted, says, ‘Spend, O son of Adam, and I shall spend on you." <br>
+                    (Al-Bukhari and Muslim)
+                </h2>
+
+            </div>
+            <div>
+                <img data-u="image" src="/content/img/slider/img3.jpg" alt="">
+                <h1 data-u="caption" class="jssor-cap title-two" data-t="FDC|H"
+                    style="width:650px;height:48px;left:500px;top:400px; font-size:38px;">
+                    Prophet Muhammed (PBUH) said:
+                </h1>
+                <h2 data-u="caption" class="jssor-cap title-one" data-t="FDC|H"
+                    style="width:656px;height:130px;left:500px;top:450px; font-size:28px;">
+                    “The believer’s shade on the Day of Resurrection will be his charity.”  <br>
+                    (Al-Tirmidhi)
+                </h2>
+
+            </div>
+        </div>
+        <!-- End Slider -->
+        <!-- Trigger -->
+        <script>jssor_fullwidth('slider1_container');</script>
+    </div>
+    <!-- End Jssor Slider -->
+    <div class="introduce-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="introduce">
+                        <div class="intro-head">
+                            <h1 class="title"><span>Helping</span> Hand</h1>
+                            <p>Charity without disclosing it to anyone is Sunnah.</p>
+                            <div class="intro-divider"></div>
+                        </div>
+                        <p>
+                            Charity process here at HelpingHand is easy and confidential. Register yourself as a donor by telling us the amount you want to donate monthly and we will handle the rest of the process OR register as a needy individual and we will send help to your doorstep.
+                        </p>
+                        <div class="intro-cta">
+                            <p>What are you waiting for </p>
+                            <h2>Register Now...!</h2>
+                        </div>
+                        <i class="icon-arrow-down"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End slider -->
+
+<div class="clearfix"></div>
+
+<!-- Start what we do -->
+<section id="what" class="section-wrapper nopadding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="donate-form">
+                   
+                    <h4>Forms</h4>
+                    <input type="radio" onchange="showVolunteer(this)" name="aorb" id="volunteer-radio" data-value="v" checked>
+                    <label for="volunteer-radio">Volunteer</label>
+                    <input type="radio" onchange="showDonor(this)" name="aorb" id="donar-radio" data-value="d">
+                    <label for="donar-radio">Donar</label>
+                    <input type="radio" onchange="showNeedy(this)" name="aorb" id="need-radio" data-value="n">
+                    <label for="need-radio">Need Help</label>
+                    <form id="validateform" class="main-form mt-3">
+                        <div>
+                            <div class="form-group">
+                                <label>Name :</label>
+                                <input type="text" name="name1" id="name1" class="form-control input-lg required" placeholder="Enter your full Name...">
+                            </div>
+                            <div class="form-group">
+                                <label>Phone :</label>
+                                <input type="text" name="email1" id="email1" class="form-control input-lg required" placeholder="Enter your phone number...">
+                            </div>
+                            <div class="form-group">
+                                <label>Email :</label>
+                                <input type="email" name="email2" id="email2" class="form-control input-lg required" placeholder="Enter your email...">
+                            </div>
+                            <div class="form-group" id="donar" style="display: none;">
+                                <label>Your Donation / Month :</label>
+                                <input type="text" name="donate" id="donate" class="form-control input-lg number required" placeholder="Enter your donate number only ( i.e. 100 )">
+                            </div>
+                            <div class="form-group" id="volunteer">
+                                <label>Password :</label>
+                                <input type="password" name="password" id="password" class="form-control input-lg number required" placeholder="Password">
+                            </div>
+                        </div>
+                        <div id="need-help">
+
+                            <div class="form-group">
+                                <label>CNIC :</label>
+                                <input type="text" name="donate" id="cnic" class="form-control input-lg required" placeholder="e.g 12345-4356789-1">
+                            </div>
+
+                        </div>
+                        <div class="alert alert-danger" id="errorMsg">
+                            
+                        </div>
+                        <div class="alert alert-success" id="successMsg">
+                            
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" value="Sign Up" id="submit1" class="btn btn-primary btn-lg" onclick="sendEmail()" />
+
+                            {{!-- @*<div class="status-progress" id=""></div>*@ --}}
+                        </div>
+                    </form>
+                    <!-- Help Form -->
+
+                </div>
+            </div>
+            <div class="col-md-8 contain content-what">
+                <div class="heading">
+                    <h5>What we do</h5>
+                    <p>
+                        Sub heading: HelpingHand is making it easy for donors to help their brothers in need.
+                    </p>
+                    <span class="linner"></span>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 service-box">
+                        <i class="icon-user-check icon-4x icon-primary alignleft"></i>
+                        <h5>Verified Profiles</h5>
+                        <p>
+                            HelpingHand will verify all profiles making sure that donations are sent to deserving families only.
+                        </p>
+                    </div>
+                    <div class="col-md-6 service-box">
+                        <i class="icon-eye-blocked icon-4x icon-primary alignleft"></i>
+                        <h5>Non-Disclosure</h5>
+                        <p>
+                            According to our policy, we neither disclose the profile or identifiable information of our brothers in need nor we believe in publicity.
+                        </p>
+                    </div>
+                    <div class="col-md-6 service-box">
+                        <i class="icon-spinner10 icon-4x icon-primary alignleft"></i>
+                        <h5>Fully Automated </h5>
+                        <p>
+                            Donors will automatically get a notification to deliver rations/funds at the requestee's address.
+                        </p>
+                    </div>
+                    <div class="col-md-6 service-box">
+                        <i class="icon-flag icon-4x icon-primary alignleft"></i>
+                        <h5>Nation-Wide</h5>
+                        <p>
+                            We are a nationwide service so you will get requests of deserving people living nearest to you first.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End what we do -->
+
+<div class="clearfix"></div>
+
+
+
+<div class="clearfix"></div>
+
+<!-- Start who we are -->
+<section id="who" class="section-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10">
+                <div class="heading">
+                    <h5>Who we are</h5>
+                    <p>
+                        We at HelpingHand try our level best that none of our brothers, especially those who do not ask for help publicly, will go to sleep hungry.
+                    </p>
+                    <span class="linner"></span>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <!-- Start Accordion -->
+                <div class="panel-group" id="accordion">
+                    <!-- Start Accordion 01 -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h5 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                    Who do we help the most?
+                                </a><i class="indicator icon-minus"></i>
+                            </h5>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                We help the "Safed Posh" individuals of our community most. We help those who do not ask for help publicly yet try to make both ends meet on their own. Helping such individuals is important because the financial crisis makes it difficult for them as well as their families to fulfill even the basic needs e.g. eating meals twice etc. Our CNIC Verification Process ensures that we find these "Safed Posh" brothers and provide financial assistance to them.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Accordion 01 -->
+                    <!-- Start Accordion 02 -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h5 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                                    Will there be a photo session?
+                                </a><i class="indicator icon-plus"></i>
+                            </h5>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                Our No Publicity Policy dictates that while delivering food/funds, the donor will not do any type of publicity. We should strictly look down upon public donations as our Prophet (P.B.U.H) himself said that the left hand must not know what right hand has given in charity. Publicizing charity nullifies it.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Accordion 02 -->
+                    <!-- Start Accordion 03 -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h5 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                                    What is the process to ask for help?
+                                </a><i class="indicator icon-plus"></i>
+                            </h5>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                Signup with us by providing your CNIC so that we can get your family's data from NADRA to make sure that our donors are making donations to the deserving families. Once you've signed up, put up the request of what you need i.e. rations / financial help for utility bills, children's fee, etc. Your profile will not be publicized; rather a donor will be picked by our software who will help you within the next 24 hours.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Accordion 03 -->
+                    <!-- Start Accordion 04 -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h5 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapsefour">
+                                    What is the process to offer help?
+                                </a><i class="indicator icon-plus"></i>
+                            </h5>
+                        </div>
+                        <div id="collapsefour" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                Sign up with us, share the amount you want to donate monthly and we will send you a link to the profile of our brother(s) in need as soon as we get any request. A request will be sent to you once we have verified profile after confirming that the individual is deserving and needs help.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Accordion 04 -->
+                </div>
+                <!-- End Accordion -->
+            </div>
+            <div class="col-md-6">
+                <!-- Start Video -->
+                <div class="wrap-iframe">
+                    <div class="video-wrapper">
+                        <img src="/content/img/img-video.jpg" class="img-video" alt="" />
+                        <div class="video-container">
+                        </div>
+                    </div>
+                </div>
+                <span class="video-shadow"></span>
+                <!-- End Video -->
+            </div>
+        </div>
+    </div>
+</section><script src="/content/Customjs/Admin/Signup.js"></script>
+<!-- End who we are -->
+
