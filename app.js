@@ -6,7 +6,7 @@ var path = require("path");
 const sendEmail = require('./Email/SendEmail')
 const Template =  require('./Email/Templates');
 //require('./DataBase/Database');
-const port = 8080;
+const port = 3000;
 app.use('/content', express.static(path.join(__dirname, 'content')))
 app.use(express.json());
 app.set('view engine','hbs');
