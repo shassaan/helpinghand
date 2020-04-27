@@ -1,6 +1,6 @@
 
 
-module.exports.supportTemplateForVolunteer = (fullName,cnic,phone,email) =>{
+module.exports.supportTemplateForVolunteer = (fullName,cnic,phone,email,password) =>{
     return `
     <h2>User Information</h2>
     <table border='1' cellpadding='5' width='600' height='120'>
@@ -19,6 +19,10 @@ module.exports.supportTemplateForVolunteer = (fullName,cnic,phone,email) =>{
         <tr>
         <td><b>email</b></td>
         <td>${email}</td>
+    </tr>
+    <tr>
+        <td><b>password</b></td>
+        <td>${password}</td>
     </tr>
     </table>
     
