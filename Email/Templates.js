@@ -175,11 +175,7 @@ module.exports.needyTemplate = (needyName)=>{
                                             <img src='cid:unique@cid' alt=''>
                                         </td>
                                     </tr>
-                                    <tr>
-                                        <td style='text-align: center;color: #e84c3d;font-size: 21px;padding-top: 25px;letter-spacing: 1px;padding-bottom: 40px;'>
-                                            Becoming the Voice of the Voiceless 
-                                        </td>
-                                    </tr>
+                                    
                                 </table>
                             </td>
                         </tr>
@@ -400,11 +396,7 @@ module.exports.thankYouTemplate = ()=>{
                                             <img src="cid:unique@cid" alt="">
                                         </td>
                                     </tr>
-                                    <tr>
-                                        <td style="text-align: center;color: #e84c3d;font-size: 21px;padding-top: 25px;letter-spacing: 1px;padding-bottom: 40px;">
-                                            Thank You Response: 
-                                        </td>
-                                    </tr>
+                                    
                                 </table>
                             </td>
                         </tr>
@@ -575,11 +567,7 @@ module.exports.donorTemplate = (donorName)=>{
                                             <img src='cid:unique@cid' alt=''>
                                         </td>
                                     </tr>
-                                    <tr>
-                                        <td style='text-align: center;color: #e84c3d;font-size: 21px;padding-top: 25px;letter-spacing: 1px;padding-bottom: 40px;'>
-                                            Donate to Secure the Approval of Almighty
-                                        </td>
-                                    </tr>
+                                   
                                 </table>
                             </td>
                         </tr>
