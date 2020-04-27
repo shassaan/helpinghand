@@ -25,15 +25,7 @@ module.exports = (from,to,subject,html,basePath)=>{
     });
 
 
-    // let transporter = nodemailer.createTransport({
-    //     host:'smtp.gmail.com',
-    //     port:587,
-    //     secure:true,
-    //     auth:{
-    //         user:'syedhassaan.103@gmail.com',
-    //         pass:'#include<iostream>'
-    //     }
-    // });
+   
 
     transporter.sendMail(mailOptions,(error,info)=>{
         if (error) {  
