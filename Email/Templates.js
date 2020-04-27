@@ -245,7 +245,7 @@ module.exports.needyTemplate = (needyName)=>{
                         </tr>
                         <tr>
                             <td style='color: #4d4d4d;font-size: 14px;line-height: 26px;text-align: center;padding-top: 10px;padding-bottom: 10px;'>
-                                <a class='d-sm-block footer-link' href='#'>Service Policies (http://test.helpinghand.pk/privacy-policy.html)</a><span class='d-sm-none'>|</span>
+                                <a class='d-sm-block footer-link' href='#'>Service Policies (http://helpinghand.pk/privacy-policy.html)</a><span class='d-sm-none'></span>
                             </td>
                         </tr>
                         <tr>
@@ -637,7 +637,7 @@ module.exports.donorTemplate = (donorName)=>{
                         </tr>
                         <tr>
                             <td style='color: #4d4d4d;font-size: 14px;line-height: 26px;text-align: center;padding-top: 10px;padding-bottom: 10px;'>
-                                <a class='d-sm-block footer-link' href='#'>Service Policies (http://test.helpinghand.pk/privacy-policy.html)</a><span class='d-sm-none'>|</span>
+                                <a class='d-sm-block footer-link' href='#'>Service Policies (http://helpinghand.pk/privacy-policy.html)</a><span class='d-sm-none'></span>
                             </td>
                         </tr>
                         <tr>
