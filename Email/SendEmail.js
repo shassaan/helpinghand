@@ -14,26 +14,26 @@ module.exports = (from,to,subject,html,basePath)=>{
         html: html
     };
 
+    // let transporter = nodemailer.createTransport({
+    //     host:'mail.helpinghand.pk',
+    //     port:587,
+    //     secure:false,
+    //     auth:{
+    //         user:'support@helpinghand.pk',
+    //         pass:'4QeKubB)h74G'
+    //     }
+    // });
+
+
     let transporter = nodemailer.createTransport({
-        host:'mail.helpinghand.pk',
+        host:'smtp.gmail.com',
         port:587,
         secure:false,
         auth:{
-            user:'support@helpinghand.pk',
-            pass:'4QeKubB)h74G'
+            user:'syedhassaan.103@gmail.com',
+            pass:'#include<iostream>'
         }
     });
-
-
-    // // let transporter = nodemailer.createTransport({
-    // //     host:'smtp.gmail.com',
-    // //     port:587,
-    // //     secure:false,
-    // //     auth:{
-    // //         user:'syedhassaan.103@gmail.com',
-    // //         pass:'#include<iostream>'
-    // //     }
-    // // });
 
     transporter.sendMail(mailOptions,(error,info)=>{
         if (error) {  
