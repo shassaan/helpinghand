@@ -55,7 +55,7 @@ app.get('/thankyou',(req,res)=>{
 
 app.post('/sendEmail',(req,res)=>{
     const {name,email,phone,password,isDonor,isVolunteer,isNeedy,CNIC = "",donation = ""} = req.body;
-    const supportEmail = "syedhassaan.103@gmail.com"
+    const supportEmail = "support@helpinghand.pk"
     
     sendEmail(supportEmail,email,'Thank you',Template.thankYouTemplate(),req.protocol+"://"+req.headers.host);
     
