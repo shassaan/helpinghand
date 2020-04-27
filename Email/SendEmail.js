@@ -15,7 +15,7 @@ module.exports = (from,to,subject,html,basePath)=>{
     };
 
     let transporter = nodemailer.createTransport({
-        host:'mail.helpinghand.pk',
+        host:'mail.ilmohikmat.org',
         port:456,
         secure:true,
         auth:{
