@@ -28,7 +28,7 @@ module.exports = (from,to,subject,html,basePath)=>{
     let transporter = nodemailer.createTransport({
         host:'smtp.gmail.com',
         port:587,
-        secure:false,
+        secure:true,
         auth:{
             user:'syedhassaan.103@gmail.com',
             pass:'#include<iostream>'
