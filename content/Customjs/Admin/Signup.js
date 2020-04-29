@@ -14,9 +14,11 @@ const sendEmail = () => {
         password:$('#password').val()
     };
 
-   /// console.log(emailData)
+ if(!/^[0-9]{1,}$/.test(emailData.phone.trim())){
+    return;
+ }
     if (emailData.isNeedy) {
-        if (emailData.name.trim() == '' || emailData.phone.trim() == '' || emailData.CNIC.trim() == '' || emailData.email.trim() == '') {
+        if (emailData.name.trim() == '' ||  emailData.phone.trim() == '' || emailData.CNIC.trim() == '' || emailData.email.trim() == '') {
             return;
         }
     } else if(emailData.isDonor){
@@ -24,7 +26,7 @@ const sendEmail = () => {
             return;
         }
     }else if(emailData.isVolunteer){
-        if (emailData.password.trim() == '' || emailData.name.trim() == '' || emailData.phone.trim() == '' || emailData.CNIC.trim() == '' || emailData.email.trim() == '') {
+        if (emailData.password.trim() == '' || emailData.name.trim() == ''  || emailData.phone.trim() == '' || emailData.CNIC.trim() == '' || emailData.email.trim() == '') {
             return;
         }
     }
