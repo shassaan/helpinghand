@@ -5,7 +5,7 @@ a,
 a:hover,
 a:focus,
 a:active,
-.error,
+
 .comments .media .media-body h5 a:hover,
 .comments .media .media-body h5 a:focus,
 ul.tags li a:hover,
@@ -32,8 +32,9 @@ ul.social-link li a:focus,
 .heading h5,
 .parallax-slider h2 span,
 .title-box h2 span{
-	color:#df352c;
+	color:#40be4c;
 }
+.error{color:red;}
 
 /*
 Background color
@@ -55,11 +56,11 @@ ul.pagination li.on a,
 .filter-items li:focus,
 .linner,
 a.openpanel:hover{
-	background-color:#df352c;
+	background-color:#40be4c;
 }
 
 .introduce{
-	background-color:rgba(223, 53, 44, 0.9);
+	background-color:rgba(64, 190, 76, 0.9);
 	color:#fff;
 }
 
@@ -96,7 +97,7 @@ fieldset[disabled] .btn-primary.active,
 .navbar-nav > li > a.btn:hover,
 .navbar-nav > li > a.btn:focus,
 .navbar-nav > li > a.btn:active{
-	background-color:#b72922;
+	background-color:#36ad41;
 }
 
 /*
@@ -112,7 +113,7 @@ ul.pagination li.on a,
 .form-control:focus,
 .donate-form  .form-control:focus,
 .object{
-	border-color:#df352c;
+	border-color:#40be4c;
 }
 
 .input-subscribe input,
@@ -149,14 +150,14 @@ fieldset[disabled] .btn-primary.active,
 .navbar-nav > li > a.btn:hover,
 .navbar-nav > li > a.btn:focus,
 .navbar-nav > li > a.btn:active{
-	border-color:#b72922;
+	border-color:#36ad41;
 }
 
 ul.pagination li.on a:hover,
 ul.pagination li.on a:focus,
 ul.pagination li.on a,
 .btn-primary{
-	border-bottom-color:#b72922;
+	border-bottom-color:#36ad41;
 }
 
 .btn-primary.disabled,
@@ -192,7 +193,7 @@ fieldset[disabled] .btn-primary.active,
 .navbar-nav > li > a.btn:hover,
 .navbar-nav > li > a.btn:focus,
 .navbar-nav > li > a.btn:active{
-	border-bottom-color:#911913;
+	border-bottom-color:#2d9a38;
 }
 
 /*
@@ -200,7 +201,7 @@ Secondary color
 =========================== */
 .start-video:before,
 .intro-cta h2{
-	color:#f89d1c;
+	color##2a303c;
 }
 
 .btn-default,
@@ -208,32 +209,52 @@ Secondary color
 .intro-divider,
 .donate-form,
 .demo-header{
-	background-color:#f89d1c;
+	background-color:#2a303c;
 }
 
 .wrap-comment,
 .footer-about{
-	background-color:#f89d1c;
+	background-color:#2a303c;
 }
 
 .btn-default:hover,
 .btn-default:focus{
-    background-color:#d9851f;
+    background-color:#d82f6e;
 }
 
 .donate-form .form-control{
-	border-color:#c97919;
+	border-color:#2d9a38;
 }
 
 .btn-default{
-	border-bottom-color:#c97919;
+	border-bottom-color:#2d9a38;
 }
 
 .wrap-comment .form-control{
-	border-color:#b86e29;
+	border-color:#c92462;
 }
 
 .btn-default:hover,
 .btn-default:focus{
-	border-bottom-color:#b86e29;
+	border-bottom-color:#c92462;
+}
+[type="radio"]:checked + label, [type="radio"]:not(:checked) + label {
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #eee !important;
+}
+[type="radio"]:checked + label::after, [type="radio"]:not(:checked) + label::after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #2d9a38;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
 }
