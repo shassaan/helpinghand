@@ -1,6 +1,6 @@
 ﻿
 const sendEmail = () => {
-    
+
 
     let emailData = {
         name: $('#name1').val(),
@@ -9,29 +9,29 @@ const sendEmail = () => {
         donation: $('#donate').val(),
         CNIC: $('#cnic').val(),
         isNeedy: $("input[name='aorb']:checked").data("value") == 'n' ? true : false,
-        isVolunteer:$("input[name='aorb']:checked").data("value") == 'v' ? true:false,
-        isDonor:$("input[name='aorb']:checked").data("value") == 'd' ? true:false,
-        password:$('#password').val()
+        isVolunteer: $("input[name='aorb']:checked").data("value") == 'v' ? true : false,
+        isDonor: $("input[name='aorb']:checked").data("value") == 'd' ? true : false,
+        password: $('#password').val()
     };
 
- if(!/^[0-9]{1,}$/.test(emailData.phone.trim())){
-    return;
- }
+    if (!/^[0-9]{1,}$/.test(emailData.CNIC.trim())) {
+        return;
+    }
     if (emailData.isNeedy) {
-        if (emailData.name.trim() == '' ||  emailData.phone.trim() == '' || emailData.CNIC.trim() == '' || emailData.email.trim() == '') {
+        if (emailData.name.trim() == '' || emailData.phone.trim() == '' || emailData.CNIC.trim() == '' || emailData.email.trim() == '') {
             return;
         }
-    } else if(emailData.isDonor){
+    } else if (emailData.isDonor) {
         if (emailData.name.trim() == '' || emailData.phone.trim() == '' || emailData.donation.trim() == '' || emailData.email.trim() == '') {
             return;
         }
-    }else if(emailData.isVolunteer){
-        if (emailData.password.trim() == '' || emailData.name.trim() == ''  || emailData.phone.trim() == '' || emailData.CNIC.trim() == '' || emailData.email.trim() == '') {
+    } else if (emailData.isVolunteer) {
+        if (emailData.password.trim() == '' || emailData.name.trim() == '' || emailData.phone.trim() == '' || emailData.CNIC.trim() == '' || emailData.email.trim() == '') {
             return;
         }
     }
 
-    
+
     var settings = {
         "url": "/sendEmail",
         "method": "POST",
@@ -66,15 +66,15 @@ const sendEmail = () => {
             $('#errorMsg').show();
             $('#errorMsg').text("Something went wrong !");
         }
-        
+
         setTimeout(() => {
             $('#errorMsg').hide();
             $('#successMsg').hide();
 
         }, 5000)
 
-        
-        
+
+
     });
 }
 
