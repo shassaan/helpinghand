@@ -14,10 +14,14 @@ const sendEmail = () => {
         password: $('#password').val()
     };
 
-    if (!/^[0-9]{1,}$/.test(emailData.CNIC.trim())) {
+    
+    if (!/^[a-zA-Z]{1,}$/.test(emailData.name.trim())) {
         return;
     }
     if (emailData.isNeedy) {
+        if (!/^[0-9]{1,}$/.test(emailData.CNIC.trim())) {
+            return;
+        }
         if (emailData.name.trim() == '' || emailData.phone.trim() == '' || emailData.CNIC.trim() == '' || emailData.email.trim() == '') {
             return;
         }
@@ -26,6 +30,9 @@ const sendEmail = () => {
             return;
         }
     } else if (emailData.isVolunteer) {
+        if (!/^[0-9]{1,}$/.test(emailData.CNIC.trim())) {
+            return;
+        }
         if (emailData.password.trim() == '' || emailData.name.trim() == '' || emailData.phone.trim() == '' || emailData.CNIC.trim() == '' || emailData.email.trim() == '') {
             return;
         }
